@@ -1,0 +1,7 @@
+package com.movie_booking.movie_booking_system.exception;
+
+public class InvalidCredentialsException extends RuntimeException{
+    public InvalidCredentialsException(String message){
+        super(message);
+    }
+}
